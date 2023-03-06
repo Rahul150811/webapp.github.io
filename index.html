@@ -5,10 +5,10 @@
 </head>
 <body>
     <h1>YouTube Video Downloader</h1>
-    <form method="post" action="/download">
-        <label for="url">Enter YouTube video URL:</label>
-        <input type="text" name="url" id="url">
-        <button type="submit">Download</button>
+    <form action="/download" method="POST">
+        <label for="url">Enter a YouTube video URL:</label><br>
+        <input type="text" id="url" name="url" required><br>
+        <input type="submit" value="Download">
     </form>
 </body>
 </html>
